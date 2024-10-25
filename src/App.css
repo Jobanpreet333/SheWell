@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar-collapse {
+  text-align: end;
+  margin-left: 1200px;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+
+#nav{
+  position: relative;
+  margin: 0 auto 0;
+  padding-top: 0px;
+ 
+}
+.nav-link{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-fluid{
+  background-color: #A4133C;
+  color: white;
+}
+
+#head{
+  color: rgb(243, 228, 228);
+}
+#heading{
+  color: rgb(243, 228, 228);
+}
+
+.login{
+  color: #590D22;
+  margin-left: 220px;
+}
+
+form{
+  margin-top: 40px;
+}
+.container{
+  margin-top: 40px;
+  width: 600px;
+}
+.btn{
+  margin-left: 220px;
+  margin-top: 20px;
+  color: #590D22;
+  background-color: white;
+   border: 2px solid #590D22;
+}
+.btn:hover{
+  color: white;
+  background-color: #590D22;
+   border: 2px solid #590D22;
+}
+.btn:onclick{
+  color: white;
+  background-color: #590D22;
+   border: 2px solid #590D22;
+}
+
+.cardsImg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+.cardsImg .card{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cycle{
+  margin-left: 600px;
+  margin-top: 20px;
+  color: #590D22;
+
+}
+
+.periodHeading{
+  margin-left: 550px;
+  margin-top: 20px;
+  color: #590D22;
+}
+
+h1{
+  color: #590D22;
+
+}
+
+h2{
+  color: #800F2F;
+  margin-top: 30px;
+  
+}
+
+h3{
+  color: #A4133C;
+  margin-top: 20px;
+
+}
+
+h4{
+  color: black;
+  margin-top: 10px;
+
+}
+
+.product{
+  margin-left: 30px;
+}
+
+#product {
+  border-radius: 16px;
+  margin-top: 20px;
+}
