@@ -10,7 +10,7 @@ const Navbar = () => {
             <div>
                 <nav id="nav" className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
-                        <a id="heading" className="navbar-brand" href="/">SheWell</a>
+                        <a id="heading" className="navbar-brand" href="/">SheWell - Educating Women</a>
 
                         {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">

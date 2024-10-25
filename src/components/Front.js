@@ -60,7 +60,16 @@ function Front() {
                     </div>
                 </div>
             </div>
+<div>
+<div>
+                <nav id="nav" className="navbar navbar-expand-lg bg-body-tertiary">
+                    <div className="container-fluid">
 
+                    </div>
+                </nav>
+            </div>
+            
+</div>
         </>
     )
 }
