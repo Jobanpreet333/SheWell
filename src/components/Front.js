@@ -22,16 +22,20 @@ function Front() {
                     </Link>
                 </div>
                 <div class="card" style={{ "width": "18rem" }}>
+                    <Link to='/maternity'>
                     <img src={Preg} class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">Maternity</h5>
                     </div>
+                    </Link>
                 </div>
                 <div class="card" style={{ "width": "18rem" }}>
+                    <Link to='/abortion'>
                     <img src={Abortion} class="card-img-top" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">Abortion</h5>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className='cardsImg'>

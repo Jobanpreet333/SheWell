@@ -1,5 +1,7 @@
 import React from 'react'
-
+import Menscycle from '../menscycle.png'
+import Follicular from '../follicular.png'
+import Luteal from '../luteal.png'
 function Menstrual() {
   return (
     <>
@@ -10,7 +12,7 @@ function Menstrual() {
 
 <h2> Phases of the Menstrual Cycle</h2>
 <h3>The menstrual cycle is divided into four main phases:</h3>
-
+<img src={Menscycle} alt="" />
 <h4>1. Menstrual Phase (Days 15)</h4>
 <h4>2. Follicular Phase (Days 113)</h4>
 <h4>3. Ovulation (Day 14)</h4>
@@ -22,6 +24,7 @@ function Menstrual() {
    <h4>Low estrogen and progesterone levels signal the body to shed the lining.</h4>
   
    <h2> 2. Follicular Phase (Days 113)</h2>
+   <img src={Follicular} alt="" />
    <h3>What happens:</h3> <h4>The follicular phase overlaps with the menstrual phase and continues until ovulation. It is marked by the growth of follicles (small sacs in the ovaries) that contain immature eggs. By the end of this phase, one dominant follicle matures and prepares to release an egg.</h4>
    <h3>Hormonal Role:</h3>
    <h4>Hypothalamus releases GonadotropinReleasing Hormone (GnRH), which prompts the pituitary gland to secrete FollicleStimulating Hormone (FSH).</h4>
@@ -36,6 +39,7 @@ function Menstrual() {
  <h4>FSH levels also spike slightly to support the process.</h4>
 
  <h2>4. Luteal Phase (Days 1528)</h2>
+ <img src={Luteal} alt="" />
  <h3>What happens:</h3> <h4>After the egg is released, the ruptured follicle transforms into the corpus luteum, which secretes hormones to maintain the uterine lining. If fertilization does not occur, the corpus luteum degenerates, and hormone levels drop, leading to the next menstrual cycle.</h4>
  <h3> Hormonal Role:</h3>
  <h4>  The corpus luteum produces progesterone and some estrogen, which help maintain the thickened uterine lining (endometrium) in preparation for implantation.</h4>

@@ -14,6 +14,18 @@ import Mensdiet from './components/Mensdiet';
 import Mensexercise from './components/Mensexercise';
 import Mensmedication from './components/Mensmedication';
 import Mensissue from './components/Mensissue';
+import Maternity from './components/Maternity';
+import Mtp from './components/Mtp';
+import Infertiltiy from './components/Infertiltiy';
+import Contraceptives from './components/Contraceptives';
+import Pregdiet from './components/Pregdiet';
+import Pregamedicine from './components/Pregamedicine';
+import Miscarriage from './components/Miscarriage';
+import Pregaexercise from './components/Pregaexercise';
+import Pregaproblems from './components/Pregaproblems';
+import Pregnancy from './components/Pregnancy';
+import Abortion from './components/Abortion';
+
 function App() {
   return (
 
@@ -35,9 +47,21 @@ function App() {
           <Route exact path="/mensexercise" element={<Mensexercise/>} />
           <Route exact path="/mensmedication" element={<Mensmedication/>} />
           <Route exact path="/mensissue" element={<Mensissue/>} />
+          <Route exact path="/maternity" element={<Maternity/>} />
+          <Route exact path="/mtp" element={<Mtp/>} />
+          <Route exact path="/infertility" element={<Infertiltiy/>} />
+          <Route exact path="/infertility" element={<Infertiltiy/>} />
+          <Route exact path="/contraceptives" element={<Contraceptives/>} />
+          <Route exact path="/pregadiet" element={<Pregdiet/>} />
+          <Route exact path="/pregamedicine" element={<Pregamedicine/>} />
+          <Route exact path="/miscarriage" element={<Miscarriage/>} />
+          <Route exact path="/pregaexercise" element={<Pregaexercise/>} />
+          <Route exact path="/pregaproblems" element={<Pregaproblems/>} />
+          <Route exact path="/pregnancy" element={<Pregnancy/>} />
+          <Route exact path="/abortion" element={<Abortion/>} />
 
-          {/* <Route exact path="/needhelp" element={<Need />} /> */}
-          {/* <Route exact path="/stray" element={<Stray/>} /> */}
+
+         
         </Routes>
       </BrowserRouter>
 
